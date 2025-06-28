@@ -47,7 +47,7 @@ RemoteDesktopViewer/
 
 - Run and enter server IP:
   ```bash
-  java Client
+  java RemoteDesktopClient
 
 # Web Integration
 - Web-based interface using JSP/Servlets
