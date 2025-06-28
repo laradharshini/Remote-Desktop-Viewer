@@ -23,21 +23,12 @@ A Java-based Remote Desktop Viewer application with real-time screen sharing, ch
 
 
 # Project Structure
-
+```bash
 RemoteDesktopViewer/
-├── server/
-│ └── Server.java
-├── client/
-│ └── Client.java
-├── shared/
-│ ├── ScreenCapture.java
-│ ├── InputController.java
-│ └── ChatHandler.java
-├── ui/
-│ └── ViewerGUI.java
+├── RemoteDesktopServer.java
+├── RemoteDesktopClient.java
 └── README.md
-
-
+```
 
 # How to Run
 
@@ -48,6 +39,7 @@ RemoteDesktopViewer/
 - Run:
   ```bash
   java RemoteDesktopServer
+
 # Client
 - Compile:
   ```bash
@@ -56,6 +48,7 @@ RemoteDesktopViewer/
 - Run and enter server IP:
   ```bash
   java Client
+
 # Web Integration
 - Web-based interface using JSP/Servlets
 
