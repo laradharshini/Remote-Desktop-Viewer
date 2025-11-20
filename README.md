@@ -2,7 +2,7 @@
 
 A Java-based Remote Desktop Viewer application with real-time screen sharing, chat, and remote mouse/keyboard control. Ideal for remote support, collaboration, and education scenarios.
 
-# Features
+## Features
 
 - Live screen sharing between server and client
 - Remote mouse and keyboard control
@@ -12,7 +12,7 @@ A Java-based Remote Desktop Viewer application with real-time screen sharing, ch
 - Logs for screen sharing and chat sessions
 
 
-# Tech Stack
+## Tech Stack
 
 - **Language:** Java (Java SE)
 - **GUI:** Java Swing
@@ -22,7 +22,7 @@ A Java-based Remote Desktop Viewer application with real-time screen sharing, ch
 
 
 
-# Project Structure
+## Project Structure
 ```bash
 RemoteDesktopViewer/
 ├── RemoteDesktopServer.java
@@ -30,9 +30,9 @@ RemoteDesktopViewer/
 └── README.md
 ```
 
-# How to Run
+## How to Run
 
-# Server
+### Server
 - Compile:
    ```bash
    javac RemoteDesktopServer.java
@@ -40,7 +40,7 @@ RemoteDesktopViewer/
   ```bash
   java RemoteDesktopServer
 
-# Client
+### Client
 - Compile:
   ```bash
   javac RemoteDesktopClient.java
@@ -49,19 +49,19 @@ RemoteDesktopViewer/
   ```bash
   java RemoteDesktopClient
 
-# Web Integration
+## Web Integration
 - Web-based interface using JSP/Servlets
 
 - JSP pages for login, dashboard, and viewer
 
 - Connects to server backend using sockets or REST
 
-# Authentication
+## Authentication
 - Clients must enter a valid password to connect.
 
 - Server can approve or deny requests.
 
-# To Do
+## To Do
 - Add user login system
 
 - Enable secure file transfer
